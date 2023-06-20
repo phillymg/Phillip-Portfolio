@@ -1,0 +1,39 @@
+header {
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: right;
+    padding: 10px;
+    font-size: 25px;
+}
+
+#photo-blurb {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#Avatar-Pic {
+   width: 500px;
+}
+
+#Check-Out {
+    font-size: 100px;
+    margin: 250px 0px 0px 20px;
+}
