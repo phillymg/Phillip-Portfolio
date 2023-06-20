@@ -8,7 +8,7 @@ header h1 {
     padding: 1%;
 }
 
-ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,10 +16,11 @@ ul {
     
 }
 
-li {
+header li {
     float: right;
     padding: 10px;
     font-size: 25px;
+    margin-right: 15px;
 }
 
 #photo-blurb {
@@ -36,4 +37,24 @@ li {
 #Check-Out {
     font-size: 100px;
     margin: 250px 0px 0px 20px;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 50px;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+section p {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#contact li {
+    font-size: 20px;
+    margin: 10px;
 }
