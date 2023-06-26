@@ -1,5 +1,9 @@
+body {
+    background-color: beige;
+}
+
 header {
-    background-color: teal;
+    background-color: rgb(54, 141, 141);
     color: white;
     text-align: center;
 }
@@ -12,49 +16,94 @@ header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 header li {
-    float: right;
-    padding: 10px;
-    font-size: 25px;
-    margin-right: 15px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    header li {
+        float: right;
+        padding: 10px;
+        font-size: 25px;
+        margin-right: 15px;
+    }
+}
+
+#Avatar-Pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#intro {
+    text-align: center;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #photo-blurb {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding: 40px;
     padding-left: 40px;
+    background-color: beige;
+    align-items: center;
 }
 
 #Avatar-Pic {
    width: 500px;
 }
 
-#Check-Out {
-    font-size: 100px;
-    margin: 250px 0px 0px 20px;
+#quote {
+    font-size: 11px;
+    font-style: italic;
+    vertical-align: middle;
+    margin-top: 10px;
 }
 
 section {
     text-align: center;
+ 
 }
 
 section h2 {
-    font-size: 40px;
-    margin-top: 50px;
+    font-size: 30px;
+    margin: 50px 15px;
     text-decoration: underline;
 }
+ h3 {
+    margin: 20px 20px;
+ }
 
 section p {
     font-size: 20px;
     margin-top: 30px;
 }
 
+#contact {
+    margin-bottom: 200px;
+}
+
 #contact li {
     font-size: 20px;
     margin: 10px;
+    margin
+}
+
+img {
+    max-width: 30%;
+}
+
+#first {
+    max-width: 50%;
+}
+
+footer {
+    text-align: center;
 }
